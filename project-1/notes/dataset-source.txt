@@ -1,0 +1,3 @@
+Dataset: Video Game Sales
+Source: https://www.kaggle.com/datasets/dandanjia/vgsales-csv?resource=download
+Description: Contains video game titles, platforms, genres, release years, and sales by region.
