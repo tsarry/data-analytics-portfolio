@@ -1,0 +1,16 @@
+Columns:
+Rank, Name, Platform, Year, Genre, Publisher, NA_Sales, EU_Sales, JP_Sales, Other_Sales, Global_Sales
+
+Data issues noticed:
+- Year column contains N/A values.
+- Sales columns contain zeros, which may represent missing or negligible sales.
+- Platform includes "2600" (Atari 2600), an older naming convention.
+
+Analysis questions:
+1. Which genre is the most common?
+2. Which platform is the most prominent?
+3. Which game is the best-seller for each region?
+
+General impressions:
+- Dataset spans many platforms and decades.
+- Sales vary widely across regions, suggesting strong regional preferences.
