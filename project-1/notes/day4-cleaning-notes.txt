@@ -1,0 +1,3 @@
+Day 4 Cleaning Notes
+- Replaced all "N/A" values in the dataset with blanks.
+- Updated the Plaftorm column by changing "2600" to "Atari 2600" for clarity.
