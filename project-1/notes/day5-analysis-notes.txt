@@ -7,3 +7,12 @@ Day 5 - Analysis Question 2: Most Common Platform
 - COunted platform frequency using a PivotTable.
 - Sorted results in descending order.
 - Most common platform: DS.
+
+Day 5 - Analysis Question 3: Best-Seller for Each Region
+- Identified top-selling game per region by sorting sales columns.
+- Recorded the highest value for NA, EU, JP, and Other regions.
+- Results:
+  - NA: Wii Sports
+  - EU: Wii Sports
+  - JP: Pokemon Red / Pokemon Blue
+  - Other: Grand Theft Auto: San Andreas
