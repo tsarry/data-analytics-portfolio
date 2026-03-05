@@ -2,3 +2,8 @@ Day 5 - Analysis Question 1: Most Common Genre
 - Counted genre frequency using a PivotTable.
 - Sorted results in descending order.
 - Most common genre: Action.
+
+Day 5 - Analysis Question 2: Most Common Platform
+- COunted platform frequency using a PivotTable.
+- Sorted results in descending order.
+- Most common platform: DS.
