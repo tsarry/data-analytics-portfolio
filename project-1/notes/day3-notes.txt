@@ -8,7 +8,7 @@ Data issues noticed:
 
 Analysis questions:
 1. Which genre is the most common?
-2. Which platform is the most prominent?
+2. Which platform is the most common?
 3. Which game is the best-seller for each region?
 
 General impressions:
