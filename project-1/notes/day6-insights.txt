@@ -1,0 +1,6 @@
+Day 6 - Interpreting Analysis Results
+- Action is the most common genre, indicating broad developer output and consistent consumer demand.
+- The DS is the most common platform, reflecting its large game library and global popularity.
+- Wii Sports is the top seller in NA and EU, likely due to console bundling and mass-market appeal.
+- Pokemon Red/Blue leads Japan, aligning with the franchise's cultural impact and early handheld adoption.
+- GTA: San Andreas leads in Other regions, showing strong global appeal outside major markets.
