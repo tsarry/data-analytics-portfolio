@@ -1,0 +1,1 @@
+- Created a bar chart for genre frequency (see visuals/genre-frequency.png)
