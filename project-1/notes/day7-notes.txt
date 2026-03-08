@@ -1,2 +1,3 @@
 - Created a bar chart for genre frequency (see visuals/genre-frequency.png)
 - Created a bar chart for platform frequency (see visuals/platform-frequency.png)
+- Created a bar chart for regional best-seller sales (see visuals/regional-sales.png)
