@@ -1,0 +1,84 @@
+Query 1: Most common genre
+SQL:
+SELECT Genre, COUNT(*) AS Count
+FROM video_game_sales
+GROUP BY Genre
+ORDER BY Count DESC
+LIMIT 1;
+
+Result:
+Action (3,316 entries)
+
+Insight:
+Action is the most common genre in the dataset, consistent with earlier Excel findings.
+
+
+Query 2: Most common platform
+SQL:
+SELECT Platform, COUNT(*) AS Count
+FROM video_game_sales
+GROUP BY Platform
+ORDER BY Count DESC
+LIMIT 1;
+
+Result:
+DS (2,163 entries)
+
+Insight:
+The Nintendo DS is the most common platform in the dataset, consistent with earlier Excel analysis.
+
+
+Query 3A: Best-selling game in North America
+SQL:
+SELECT Name, NA_Sales
+FROM video_game_sales
+ORDER BY NA_Sales DESC
+LIMIT 1;
+
+Result:
+Wii Sports - 41.49 million NA sales
+
+Insight:
+Wii Sports leads North America, consistent with earlier Excel findings.
+
+
+Query 3B: Best-selling game in Europe
+SQL:
+SELECT Name, EU_Sales
+FROM video_game_sales
+ORDER BY EU_Sales DESC
+LIMIT 1;
+
+Result:
+Wii Sports - 29.02 million EU sales
+
+Insight:
+Wii Sports is also the top-selling game in Europe, matching earlier Excel findings.
+
+
+Query 3C: Best-selling game in Japan
+SQL:
+SELECT Name, JP_Sales
+FROM video_game_sales
+ORDER BY JP_Sales DESC
+LIMIT 1;
+
+Result:
+Pokémon Red/Pokémon Blue - 10.22 million JP sales
+
+Insight:
+Japan's top seller differs from NA and EU, reflecting the region's strong handheld and Pokémon market.
+
+
+Query 3D: Best-selling game in Other regions
+SQL:
+SELECT Name, Other_Sales
+FROM video_game_sales
+ORDER BY Other_Sales DESC
+LIMIT 1;
+
+Result:
+Grand Theft Auto: San Andreas - 10.57 million sales in Other regions
+
+Insight:
+GTA: San Andreas leads in Other regions, consistent with earlier Excel findings.
