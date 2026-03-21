@@ -1,0 +1,17 @@
+Visual 1: Genre Distribution
+
+SQL:
+SELECT Genre, COUNT(*) AS Count
+FROM video_game_sales
+GROUP BY Genre
+ORDER BY Count DESC;
+
+Exported:
+genre-distribution.csv (Day 11 folder)
+
+Visual:
+genre-distribution.png (Clustered Bar, horizontal)
+
+Insight:
+Shows the distribution of games by genre based on aggregated SQL results.
+Action and Sports appear most frequently, while Puzzle and Strategy appear the least.
