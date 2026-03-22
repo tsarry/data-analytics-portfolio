@@ -15,3 +15,22 @@ genre-distribution.png (Clustered Bar, horizontal)
 Insight:
 Shows the distribution of games by genre based on aggregated SQL results.
 Action and Sports appear most frequently, while Puzzle and Strategy appear the least.
+
+
+Visual 2: Platform Distribution
+
+SQL:
+SELECT Platform, COUNT(*) AS Count
+FROM video_game_sales
+GROUP BY Platform
+ORDER BY Count DESC;
+
+Exported:
+platform-distribution.csv (Day 11 folder)
+
+Visual:
+platform-distribution.png (Clustered Bar, horizontal)
+
+Insight:
+Shows how many games were released on each platform.
+DS, PS2, and PS3 appear most frequently, while several niche platforms appear least.
