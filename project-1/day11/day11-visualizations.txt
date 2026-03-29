@@ -34,3 +34,40 @@ platform-distribution.png (Clustered Bar, horizontal)
 Insight:
 Shows how many games were released on each platform.
 DS, PS2, and PS3 appear most frequently, while several niche platforms appear least.
+
+
+Visual 3: Regional Best-Sellers (in millions)
+
+SQL:
+	SELECT 'NA' AS Region, Game, Sales
+	FROM (
+		SELECT Name AS Game, NA_Sales AS Sales
+		FROM video_game_sales
+		ORDER BY NA_Sales DESC
+		LIMIT 1
+	) AS na_top
+UNION ALL
+	SELECT 'EU' AS Region, Game, Sales
+	FROM (
+		SELECT Name AS Game, EU_Sales AS Sales
+		FROM video_game_sales
+		ORDER BY EU_Sales DESC
+		LIMIT 1
+	) AS eu_top
+UNION ALL
+	SELECT 'JP' AS Region, Game, Sales
+	FROM (
+		SELECT Name AS Game, JP_Sales AS Sales
+		FROM video_game_sales
+		ORDER BY JP_Sales DESC
+		LIMIT 1
+	) AS jp_top;
+
+Exported:
+regional-best-sellers.csv (Day 11 folder)
+
+Visual:
+regional-best-sellers.png (Clustered Bar, horizontal)
+
+Insight:
+Wii Sports is the top seller in both NA and EU. while Japan's top seller is Pokémon Red / Pokémon Blue, showing clear regional differences in game popularity.
