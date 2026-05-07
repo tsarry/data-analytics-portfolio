@@ -16,5 +16,5 @@ This project analyzes two years of Boston Blue Bikes trip and station data using
 - Summary table generation and metric computation.
 
 ## Files
-- 'blue_bikes_analysis.htlm' - Full analysis
+- 'blue_bikes_analysis.html' - Full analysis (recommended for viewing)
 - 'blue_bikes_analysis.ipynb' - Jupyter Notebook
