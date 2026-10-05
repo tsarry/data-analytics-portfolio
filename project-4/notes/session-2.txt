@@ -1,0 +1,14 @@
+Session 2 - Database Schema Design
+
+- Designed normalized SQL schema based on raw CSV fields.
+- Defined customers table (9 columns):
+	customerID, gender, SeniorCitizen, Partner, Dependents,
+	tenure, Contract, PaymentMethod, Churn
+- Defined services table (10 columns):
+	customerID, PhoneService, MultipleLines, InternetService,
+	OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport,
+	StreamingTV, StreamingMovies
+- Defined billing table (3 columns):
+	customerID, MonthlyCharges, TotalCharges
+- Verified column names match raw CSV exactly (capitalization included).
+- Prepared SQL CREATE TABLE statements for all three tables.
