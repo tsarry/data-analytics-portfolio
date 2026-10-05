@@ -1,0 +1,14 @@
+Session 1 - Project Setup
+
+- Created new SQLite database file for Telco Churn project.
+- Reviewed raw Telco CSV structure (21 columns).
+- Planned database normalization into three tables:
+	- customers
+	- services
+	- billing
+- Outlined ETL workflow:
+	1. Import raw CSV into SQLite
+	2. Create normalized tables
+	3. Populate tables using INSERT...SELECT
+	4. Perform analysis using unified view
+- Confirmed project folder structure and Git repo setup.
