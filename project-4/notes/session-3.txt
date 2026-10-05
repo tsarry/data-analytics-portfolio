@@ -1,0 +1,7 @@
+Session 3 - ETL and Table Population
+
+- Imported raw Telco CSV into new table: telco_raw
+- Created normalized tables: customers, services, billing
+- Populated each table using INSERT...SELECT from telco_raw
+- Verified row counts match across all tables
+- Confirmed schema correctness and column alignment
