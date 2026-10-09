@@ -1,6 +1,6 @@
 Session 4 - Unified View and Initial Analysis
 
-- Created unified SQL view (telfo_full) combining customers, services, and billing tables:
+- Created unified SQL view (telco_full) combining customers, services, and billing tables:
 
 	CREATE VIEW telco_full AS
 	SELECT * FROM customers
