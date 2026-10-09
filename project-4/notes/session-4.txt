@@ -1,0 +1,35 @@
+Session 4 - Unified View and Initial Analysis
+
+- Created unified SQL view (telfo_full) combining customers, services, and billing tables:
+
+	CREATE VIEW telco_full AS
+	SELECT * FROM customers
+	JOIN services USING (customerID)
+	JOIN billing USING (customerID);
+
+- Verified view output using:
+	SELECT * FROM telco_full LIMIT 20;
+
+- Ran initial churn analysis queries:
+
+	-- Overall churn rate
+	SELECT Churn, count(*)
+	FROM customers
+	GROUP BY Churn;
+
+	-- Churn by contract type
+	SELECT Contract, Churn, count(*)
+	FROM customers
+	GROUP BY Contract, Churn;
+
+	-- Average monthly charges by churn
+	SELECT Churn, avg(MonthlyCharges)
+	FROM telco_full
+	GROUP BY Churn;
+
+	-- Internet service vs churn
+	SELECT InternetService, Churn, count(*)
+	FROM telco_full
+	GROUP BY InternetService, Churn;
+
+- Confirmed dataset is ready for Power BI export and deeper analysis.
