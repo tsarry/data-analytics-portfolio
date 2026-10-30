@@ -5,16 +5,16 @@ A data analytics project exploring the Video Game Sales dataset using SQL, Excel
 The dataset includes global video game sales with regional breakdowns (North America, Europe and Japan), reported in millions of units. It contains game titles, platforms, genres, publishers, release years, and sales figures.
 
 ## Itinerary
-- Day 1-2: Reviewed the dataset, set up the environment, and explored the data structure.
-- Day 3: Documented initial observations and identified cleaning needs.
-- Day 4: Cleaned the dataset in Excel and prepared it for analysis.
-- Day 5: Answered the three main questions in Excel and created early visuals.
-- Day 6: Refined insights and improved documentation.
-- Day 7: Added an additional visual and updated notes.
-- Day 8: Built the first version of the README and finalized the insights.
-- Day 9: Planned the SQL approach and outlined the queries to write.
-- Day 10: Used SQL to replicate the Excel results (most common genre, platform, and regional best-sellers), and documented the queries in notes/.
-- Day 11: Wrote full SQL queries to generate the data needed for visuals (all genres, all platforms, and a combined regional best-seller query using UNION ALL), exported results to CSV, created the final SQL-based visuals, and documented the workflow in day11/.
+- **Day 1-2**: Reviewed the dataset, set up the environment, and explored the data structure.
+- **Day 3:** Documented initial observations and identified cleaning needs.
+- **Day 4:** Cleaned the dataset in Excel and prepared it for analysis.
+- **Day 5:** Answered the three main questions in Excel and created early visuals.
+- **Day 6:** Refined insights and improved documentation.
+- **Day 7:** Added an additional visual and updated notes.
+- **Day 8:** Built the first version of the README and finalized the insights.
+- **Day 9:** Planned the SQL approach and outlined the queries to write.
+- **Day 10:** Used SQL to replicate the Excel results (most common genre, platform, and regional best-sellers), and documented the queries in notes/.
+- **Day 11:** Wrote full SQL queries to generate the data needed for visuals (all genres, all platforms, and a combined regional best-seller query using UNION ALL), exported results to CSV, created the final SQL-based visuals, and documented the workflow in day11/.
 
 ## Questions Answered
 - Which genre is the most common?
