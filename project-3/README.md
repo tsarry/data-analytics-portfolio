@@ -3,14 +3,18 @@ This project presents a two-page Power BI dashboard analyzing product performanc
 
 ## Dataset
 The dataset consists of four tables:
-- Sales: Fact table containing transaction quantities, product keys, store keys, customer keys, and dates.
-- Products: Dimension table with product names and related metadata.
-- Stores: Dimension table containing store identifiers, country, state, square meters, and open date.
-- Customers: Dimension table containing customer identifiers and demographic attributes.
-- DateTable: Custom date dimension built to support time intelligence and monthly trend analysis.
+- **Sales:** Fact table containing transaction quantities, product keys, store keys, customer keys, and dates.
+- **Products:** Dimension table with product names and related metadata.
+- **Stores:** Dimension table containing store identifiers, country, state, square meters, and open date.
+- **Customers:** Dimension table containing customer identifiers and demographic attributes.
+
+**Additional Table Created in Power BI:**
+- **DateTable:** Custom date dimension built to support time intelligence and monthly trend analysis.
+
+**Dataset Source:** [Maven Analytics - Global Electronic Retailer](https://mavenanalytics.io/data-playground/global-electronics-retailer)
 
 ## Dashboard Structure
-Page 1: Overview
+**Page 1: Overview**
 - High-level KPI (Total Quantity Sold)
 - Total Quantity by Product
 - Total Quantity by Month
@@ -18,7 +22,7 @@ Page 1: Overview
 - Slicers: Product, Month, Store
 - Consistent color hierarchy and layout alignment
 
-Page 2: Sales Breakdown
+**Page 2: Sales Breakdown**
 - Top 5 Products by Quantity Sold
 - Top 5 Stores by Quantity Sold
 - Monthly Sales Trend
